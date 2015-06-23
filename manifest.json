@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Snom Connector",
+  "description": "Connects your Snom Phone to Chrome. So you are able to dial numbers direct from your Chrome Browser or over tel: Hyperlinks",
+  "version": "0.5",
+ "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+          
+  "browser_action": {
+   
+   "default_popup": "popup.html"
+  },
+"options_page": "options.html",
+ "content_scripts": [ {
+    "js": [ "jquery-2.1.4.min.js", "background.js" ],
+    "matches": [ "http://*/*", "https://*/*"]
+  }],
+
+  "permissions": [
+   "activeTab",
+   "<all_urls>",
+   "storage"
+   ]
+}

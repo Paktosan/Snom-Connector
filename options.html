@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snom Connector Options</title></head>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+<body>
+<div class="container">
+	<p class="pull-right">
+		<small>Compatibility: snom3xx, 7xx und snom8xx</small>
+	</p>
+	<div class="page-header">
+		<h1>Snom Connector Setup</h1>
+	</div>
+	<h2>1. SSL</h2>
+	<div class="alert alert-info" role="alert">
+	Accept/Add the Snom Phone SSL Certificate in your Chrome Browser
+	</div>
+	<h2>2. Connection</h2>
+	<form>
+	  <div class="form-group">
+	    <label for="ip">IP Adress of your Snom Phone</label>
+	    <input type="text" class="form-control" id="ip" placeholder="IP Adress">
+	  </div>
+ 	  <div class="form-group">
+	    <label for="user">Username</label>
+	    <input type="text" class="form-control" id="user" placeholder="Username">
+	  </div>
+	  <div class="form-group">
+	    <label for="password">Password</label>
+	    <input type="password" class="form-control" id="password" placeholder="Password">
+	  </div>
+		
+	  <button type="button" class="save btn btn-block btn-default">Save</button>
+	</form>
+	
+</div>
+
+<script src="options.js"></script>
+</body>
+</html>
