@@ -2,8 +2,8 @@
   "manifest_version": 2,
  
   "name": "Snom Connector",
-  "description": "Connects your Snom Phone to Chrome. So you are able to dial numbers direct from your Chrome Browser or over tel: Hyperlinks",
-  "version": "0.5",
+  "description": "Connects your Snom Phone to Chrome. You are able to dial numbers direct from your Chrome Browser or over tel: Hyperlinks",
+  "version": "0.5.0.1",
  "icons": { "16": "icon16.png",
            "48": "icon48.png",
           "128": "icon128.png" },
