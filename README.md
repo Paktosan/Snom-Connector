@@ -20,3 +20,6 @@ Dial your Snom Phone from your Chrome Browser
 - Every tel: hyperlink
 - Highrise CRM
 - (Other CRMs will follow soon)
+
+## License
+Code released under GNU GPL v2.
