@@ -1,0 +1,11 @@
+.snom_highrise{
+  color: #000!important;
+  text-decoration: none;
+}
+.snom_highrise .location {
+  color: #777;
+}
+
+.snom_highrise:hover{
+  text-decoration: underline;
+}
