@@ -12,7 +12,7 @@ Dial your Snom Phone from your Chrome Browser
 
 ## How It Works
 - You can dial directly any number from the Phone Button.
-- If you click ona "tel:" hyperlink your Snom phone will dial the number automatically.
+- If you click on a "tel:" hyperlink your Snom phone will dial the number automatically.
 - Additionally Snom Connector will connect some CRM Systems on the fly with your Snom Phone. The list of supported CRM Systems will improve in further versions. 
 
 ## Supported Applications
